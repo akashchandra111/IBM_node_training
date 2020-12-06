@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Add</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+         <h3>Sweets Available</h3>
+         <ol>
+           <li>Cashew Barfi</li>
+           <li> Sandesh (Nolen Gur)</li>
+           <li>Samosa</li>
+           <li>Laddoo</li>
+           <li>Gulab Jam</li>
+           <li>Baked Doi</li>
+           <li>Sunnundalu</li>
+           <li>Khova Puri</li>
+         </ol>
+
+         <hr>
+
+        <h3>Add a Sweet</h3>
+        
+        <form method="post" action="/items/add/post">
+          <div class="form-group">
+            <label for="item">Item</label>
+            <input type="text" class="form-control" id="item" name="item"
+                  placeholder="Add a sweet choice ....">
+          </div>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "mini_proj_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "nodemon ./src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-static": "^0.7.11",
+    "socket.io": "^2.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

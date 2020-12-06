@@ -1,0 +1,20 @@
+{
+  "name": "mini_proj",
+  "version": "1.0.0",
+  "description": "Mini Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "socket.io": "^3.0.1",
+    "ws": "^7.4.0"
+  }
+}
